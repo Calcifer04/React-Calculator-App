@@ -1,0 +1,88 @@
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #54666685;
+    padding: 10px;
+    gap: 4px;
+    border-radius: 10px;
+    outline-style: double;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.815);
+    border: 3px rgb(2, 2, 2);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: groove;
+    transition: background-color 0.01s ease-in-out, transform 0.01s ease;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+}
+
+.operator {
+    background-color: rgba(216, 13, 13, 0.945);
+    border: 3px rgb(2, 2, 2);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: groove;
+    transition: background-color 0.01s ease-in-out, transform 0.01s ease;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+}
+
+.clear {
+    background-color: rgb(255, 145, 0);
+    border: 3px rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: groove;
+    transition: background-color 0.01s ease-in-out, transform 0.01s ease;
+    grid-column: 4 / 6;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+}
+
+.grid-item:hover {
+    background-color: rgba(201, 201, 201, 0.815);
+}
+
+.clear:hover {
+    background-color: rgba(201, 114, 2, 0.979);
+}
+
+.operator:hover {
+    background-color: rgba(177, 0, 0, 0.925);
+}
+
+.grid-item:active {
+    background-color: rgba(43, 42, 42, 0.6);
+    transform: translateY(1.5px); 
+    border-color: rgb(0, 0, 0);
+}
+
+.operator:active {
+    background-color: rgba(43, 42, 42, 0.6);
+    transform: translateY(1.5px); 
+    border-color: rgb(0, 0, 0);
+}
+.clear:active {
+    background-color: rgba(43, 42, 42, 0.6);
+    transform: translateY(1.5px); 
+    border-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,25 @@
+.screen-container {
+    width: 350px;
+    height: 120px;
+    background-color: rgb(0, 0, 0);
+    z-index: 2;
+    border-radius: 5px;
+    top: 10%;
+    left: 25px;
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    outline-style: groove;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 5px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
